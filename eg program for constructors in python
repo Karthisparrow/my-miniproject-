@@ -1,0 +1,33 @@
+class shape:
+    length=0
+    breadth=0
+    height=0
+    radius=0
+    def cube(self):
+        print("Volume of Cube is",length*breadth*height)
+    def sphere(self):
+        print("Volume of sphere is","%.2f"%((4/3)*3.14*(radius**3)))
+    def cylinder(self):
+        print("Volume of Cylinders is",3.14*(radius**2)*height)
+#print("main program")
+a=int(input("Enter the choice\n"))
+if a==1:
+    length=int(input("length\n"))
+    breadth=int(input("breadth\n"))
+    height=int(input("height\n"))
+    sp=shape()    
+    sp.cube()
+
+
+elif a==2:    
+    radius=int(input("radius\n"))
+    sp=shape()
+    sp.sphere()
+
+
+
+else:
+    radius=int(input("radius\n"))
+    height=int(input("height\n"))
+    sp=shape()
+    sp.cylinder()
