@@ -1,0 +1,45 @@
+class player:
+    def name(s,a):
+        print("Employee Name:",a)
+    def id1(s,b):
+        print("Employee ID:",b)
+    def salary(s,c):
+        print("Employee Salary:",c)
+    def cname(s,h):
+        print("Employee Company Name:",h)
+    def name2(s,e):
+        print("Employee Name:",e)
+    def id2(s,f):
+        print("Employee ID:",f)
+    def salary2(s,g):
+        print("Employee Salary:",g)
+    def cname2(s,h):
+        print("Employee Company Name:",h)
+    def details(s):
+        print("Updated Details")
+v=int(input())        
+a=input()
+b=int(input())
+c=int(input())
+e=input()
+f=int(input())
+g=int(input())
+h=input()
+pl=player()
+pl.name(a)
+pl.id1(b)
+pl.salary(c)
+pl.cname(h)
+pl.name2(e)
+pl.id2(f)
+pl.salary2(g)
+pl.cname2(h)
+pl.details()
+pl.name(a)
+pl.id1(b)
+pl.salary(c)
+pl.cname(h)
+pl.name2(e)
+pl.id2(f)
+pl.salary2(g)
+pl.cname2(h)
